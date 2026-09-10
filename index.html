@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRBlogger | دایرکتوری بلاگرهای تخصصی فارسی</title>
+  <meta name="description" content="مرجع و دایرکتوری جامع معرفی بلاگرها و تولیدکنندگان محتوای تخصصی ایران در حوزه‌های تکنولوژی، کتاب و دیگر موضوعات">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="IRBlogger | دایرکتوری بلاگرهای تخصصی فارسی">
+  <meta property="og:description" content="معرفی برترین بلاگرها و کانال‌های تخصصی ایران">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://irblogger.github.io/">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts & Persian Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Vazirmatn', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .dark .glass {
+      background: rgba(17, 24, 39, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #a855f7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col selection:bg-sky-500 selection:text-white transition-colors duration-200">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 glass border-b border-slate-200/50 dark:border-slate-800/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+          <i data-lucide="compass" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-xl font-extrabold tracking-tight">IR<span class="text-sky-500">Blogger</span></span>
+          <span class="hidden sm:inline-block text-xs text-slate-600 dark:text-slate-400 mr-2 border-r border-slate-300 dark:border-slate-700 pr-2 font-medium">دایرکتوری بلاگرهای ایران</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/IRBlogger/IRBlogger.github.io" target="_blank" rel="noopener" class="p-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="گیت‌هاب">
+          <i data-lucide="github" class="w-5 h-5"></i>
+        </a>
+        <button id="themeToggle" class="p-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="تغییر تم">
+          <i data-lucide="moon" class="w-5 h-5 dark:hidden"></i>
+          <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden pt-12 pb-16 lg:pt-20 lg:pb-24">
+    <!-- Ambient glow -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[350px] bg-gradient-to-tr from-sky-400/20 via-indigo-500/15 to-purple-500/20 blur-3xl rounded-full pointer-events-none -z-10"></div>
+
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-950/60 border border-sky-200 dark:border-sky-800/60 text-sky-600 dark:text-sky-400 text-xs sm:text-sm font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        پروژه مستقل و باز دایرکتوری بلاگرها
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-6">
+        کشف برترین <span class="gradient-text">بلاگرهای تخصصی</span> فارسی‌زبان
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed mb-8">
+        مرجع متمرکز برای دسترسی به دایرکتوری‌ها و لیست‌های تخصصی وبلاگ‌نویسان، تولیدکنندگان محتوا و متخصصین در حوزه‌های گوناگون.
+      </p>
+
+      <!-- Quick Category Nav / Filter Pills -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5">
+        <a href="#tech" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm font-medium hover:border-sky-500 hover:text-sky-500 dark:hover:border-sky-500 dark:hover:text-sky-400 transition shadow-sm flex items-center gap-2">
+          <i data-lucide="code-2" class="w-4 h-4 text-sky-500"></i>
+          تک بلاگرها (فناوری)
+        </a>
+        <a href="#books" class="px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm font-medium hover:border-indigo-500 hover:text-indigo-500 dark:hover:border-indigo-500 dark:hover:text-indigo-400 transition shadow-sm flex items-center gap-2">
+          <i data-lucide="book-open" class="w-4 h-4 text-indigo-500"></i>
+          بوک بلاگرها (کتاب)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directories Grid -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 flex-1">
+    <div class="flex items-center justify-between mb-8 border-b border-slate-200 dark:border-slate-800 pb-4">
+      <div>
+        <h2 class="text-xl sm:text-2xl font-bold">دایرکتوری‌های فعال</h2>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">لیست‌های تخصصی تفکیک شده بر اساس حوزه فعالیت</p>
+      </div>
+      <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-lg">۲ دایرکتوری</span>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+      
+      <!-- Tech Bloggers Card -->
+      <div id="tech" class="group relative rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 sm:p-8 card-hover flex flex-col justify-between overflow-hidden">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-sky-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
+        
+        <div>
+          <div class="flex items-center justify-between mb-5">
+            <div class="w-12 h-12 rounded-xl bg-sky-50 dark:bg-sky-950/60 border border-sky-100 dark:border-sky-800/60 flex items-center justify-center text-sky-500">
+              <i data-lucide="laptop" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-medium text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/80 px-2.5 py-1 rounded-md border border-sky-200 dark:border-sky-800/50">
+              تکنولوژی و برنامه‌نویسی
+            </span>
+          </div>
+
+          <h3 class="text-xl sm:text-2xl font-bold mb-3 group-hover:text-sky-500 transition-colors">
+            تک بلاگرهای ایران
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+            دایرکتوری و معرفی توسعه‌دهندگان، برنامه‌نویسان، متخصصان هوش مصنوعی و نویسندگان حوزه فناوری در وب فارسی و شبکه‌های اجتماعی.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">برنامه‌نویسی</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">هوش مصنوعی</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">امنیت و شبکه</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">استارتاپ</span>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-xs text-slate-600 dark:text-slate-400 font-mono">techblogger-ir.github.io</span>
+          <a href="https://techblogger-ir.github.io/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white text-sm font-medium transition shadow-sm shadow-sky-500/20">
+            <span>مشاهده لیست</span>
+            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Book Bloggers Card -->
+      <div id="books" class="group relative rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 sm:p-8 card-hover flex flex-col justify-between overflow-hidden">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
+
+        <div>
+          <div class="flex items-center justify-between mb-5">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-100 dark:border-amber-800/60 flex items-center justify-center text-amber-500">
+              <i data-lucide="book" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-2.5 py-1 rounded-md border border-amber-200 dark:border-amber-800/50">
+              کتاب و ادبیات
+            </span>
+          </div>
+
+          <h3 class="text-xl sm:text-2xl font-bold mb-3 group-hover:text-amber-500 transition-colors">
+            بوک‌بلاگرهای ایران
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+            دایرکتوری جامع معرفی بلاگرهای کتاب، منتقدان، پادکست‌های ادبی و فعالان فرهنگ کتاب‌خوانی در اینستاگرام، تلگرام، توییتر و یوتیوب.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">معرفی کتاب</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">نقد و بررسی</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">نویسندگی</span>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">رمان و ادبیات</span>
+          </div>
+        </div>
+
+        <div class="pt-4 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-xs text-slate-600 dark:text-slate-400 font-mono">bookbloger.github.io</span>
+          <a href="https://bookbloger.github.io/" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium transition shadow-sm shadow-amber-500/20">
+            <span>مشاهده لیست</span>
+            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contribute Banner -->
+    <div class="mt-12 rounded-2xl bg-gradient-to-r from-slate-900 to-indigo-950 text-white p-6 sm:p-8 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+      <div>
+        <h3 class="text-lg sm:text-xl font-bold mb-2">می‌خواهید بلاگر جدیدی معرفی کنید؟</h3>
+        <p class="text-slate-300 text-sm max-w-xl">
+          پروژه IRBlogger و دایرکتوری‌های زیرمجموعه آن کاملاً متن‌باز هستند. با ثبت Issue یا Pull Request در هر یک از مخازن، می‌توانید بلاگرهای پیشنهادی خود را اضافه کنید.
+        </p>
+      </div>
+      <a href="https://github.com/IRBlogger/IRBlogger.github.io/issues" target="_blank" rel="noopener" class="whitespace-nowrap px-5 py-2.5 rounded-xl bg-white text-slate-900 hover:bg-slate-100 font-semibold text-sm transition shadow-sm flex items-center gap-2">
+        <i data-lucide="plus-circle" class="w-4 h-4 text-sky-600"></i>
+        پیشنهاد و مشارکت
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-8 bg-white/50 dark:bg-slate-950/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-600 dark:text-slate-400">
+      <div class="flex items-center gap-2">
+        <span>پروژه دایرکتوری‌های آزاد ایرانی</span>
+        <span>•</span>
+        <span>IRBlogger</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://techblogger-ir.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">تک بلاگرها</a>
+        <a href="https://bookbloger.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">بوک بلاگرها</a>
+        <a href="https://github.com/IRBlogger" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">گیت‌هاب سازمانی</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    
+    // Check saved theme or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.theme = 'light';
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.theme = 'dark';
+      }
+    });
+  </script>
+</body>
+</html>
