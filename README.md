@@ -8,9 +8,9 @@
 
 ## 🎯 درباره پروژه
 
-پروژه **IRBlogger** با هدف یکپارچه‌سازی و معرفی دایرکتوری‌های تخصصی وبلاگ‌نویسان و فعالان حوزه‌های مختلف در وب فارسی راه‌اندازی شده است. هر حوزه دارای حداقل ۱۰۰ بلاگر، آواتارهای محلی و یک گروه تلگرامی مستقل با تأیید ادمین است.
+پروژه **IRBlogger** با هدف یکپارچه‌سازی و معرفی دایرکتوری‌های تخصصی وبلاگ‌نویسان و فعالان حوزه‌های مختلف در وب فارسی راه‌اندازی شده است. هر حوزه دارای حداقل ۱۰۰ بلاگر/مکان، آواتارهای محلی و یک گروه تلگرامی مستقل با تأیید ادمین است.
 
-### 📚 دایرکتوری‌های فعال و گروه‌های تلگرامی (۹ حوزه تخصصی):
+### 📚 دایرکتوری‌های فعال و گروه‌های تلگرامی (۱۰ حوزه تخصصی):
 1. **💻 تک بلاگرهای ایران (Tech & AI):** [سایت](https://techblogger-ir.github.io/) | [گروه تلگرام](https://t.me/+7_kM9DqVzFhmMDlk)
 2. **📖 بوک‌بلاگرهای ایران (Book Bloggers):** [سایت](https://bookbloger.github.io/) | [گروه تلگرام](https://t.me/+tReSYWxBreFmYThk)
 3. **✈️ تراول بلاگرهای ایران (Travel Bloggers):** [سایت](https://travelbloggers.github.io/) | [گروه تلگرام](https://t.me/+obDeMlBbqdVjNWJk)
@@ -20,6 +20,7 @@
 7. **🎨 دیزاین‌بلاگرها و طراحان (Design & UI/UX):** [سایت](https://m4tinbeigi-official.github.io/DesignBloggers.github.io/) | [گروه تلگرام](https://t.me/+8Kl-6uZOHURhNDRk)
 8. **🎬 سینمابلاگرها و منتقدان (Cinema & Critics):** [سایت](https://m4tinbeigi-official.github.io/CinemaBloggers.github.io/) | [گروه تلگرام](https://t.me/+U-ONWzMRi6Q0YmRk)
 9. **🎮 گیم‌بلاگرها و استریمرها (Gaming & Esports):** [سایت](https://m4tinbeigi-official.github.io/GameBloggers.github.io/) | [گروه تلگرام](https://t.me/+7erzzPpsWWg2MmU0)
+10. **☕️ جامعه کافه‌داران، باریستاها و ویترها (Cafe Community):** [سایت](https://m4tinbeigi-official.github.io/CafeBloggers.github.io/) | [گروه تلگرام](https://t.me/+zBvYCfwduwE5MzI0)
 
 ---
 
