@@ -13,6 +13,8 @@
 ### 📚 دایرکتوری‌های فعال زیرمجموعه:
 1. **تک بلاگرهای ایران (Tech Bloggers):** [https://techblogger-ir.github.io/](https://techblogger-ir.github.io/)
 2. **بوک‌بلاگرهای ایران (Book Bloggers):** [https://bookbloger.github.io/](https://bookbloger.github.io/)
+3. **تراول بلاگرهای ایران (Travel Bloggers):** [https://travelbloggers.github.io/](https://travelbloggers.github.io/)
+4. **مربیان ورزشی و فیتنس (Sports Coaches):** [https://sportscoachbloggers.github.io/](https://sportscoachbloggers.github.io/)
 
 ---
 
