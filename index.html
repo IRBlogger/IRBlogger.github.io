@@ -3,15 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IRBlogger | دایرکتوری جامع بلاگرهای تخصصی ایران</title>
-  <meta name="description" content="مرجع و هاب متمرکز دایرکتوری‌های تخصصی وب فارسی در حوزه‌های تکنولوژی، کتاب، سفر، ورزش، غذا، مالی، دیزاین، سینما، گیمینگ، کافه، برنامه‌نویسی و امنیت">
+  <title>IRBlogger | دایرکتوری جامع بلاگرها و جوامع تخصصی ایران</title>
+  <meta name="description" content="مرجع و هاب متمرکز دایرکتوری‌های تخصصی وب فارسی در ۲۰ حوزه کلیدی">
   
-  <!-- Open Graph -->
-  <meta property="og:title" content="IRBlogger | دایرکتوری جامع بلاگرهای تخصصی ایران">
-  <meta property="og:description" content="مرجع هاب دایرکتوری‌های تخصصی بلاگرهای ایران">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://irblogger.github.io/">
-
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts & Persian Typography -->
@@ -35,19 +29,15 @@
   </script>
 
   <style>
-    body {
-      font-family: 'Vazirmatn', sans-serif;
-    }
+    body { font-family: 'Vazirmatn', sans-serif; }
     .glass {
       background: rgba(255, 255, 255, 0.75);
       backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.2);
     }
     .dark .glass {
       background: rgba(17, 24, 39, 0.75);
       backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.05);
     }
     .gradient-text {
@@ -75,7 +65,7 @@
         </div>
         <div>
           <span class="text-xl font-extrabold tracking-tight">IR<span class="text-sky-500">Blogger</span></span>
-          <span class="hidden sm:inline-block text-xs text-slate-600 dark:text-slate-400 mr-2 border-r border-slate-300 dark:border-slate-700 pr-2 font-medium">هاب دایرکتوری‌های تخصصی ایران</span>
+          <span class="hidden sm:inline-block text-xs text-slate-600 dark:text-slate-400 mr-2 border-r border-slate-300 dark:border-slate-700 pr-2 font-medium">هاب جامع ۲۰ جامعه تخصصی ایران</span>
         </div>
       </div>
 
@@ -93,36 +83,28 @@
 
   <!-- Hero Section -->
   <section class="relative overflow-hidden pt-12 pb-14 lg:pt-16 lg:pb-16">
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-sky-400/20 via-indigo-500/15 to-emerald-500/20 blur-3xl rounded-full pointer-events-none -z-10"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[450px] bg-gradient-to-tr from-sky-400/20 via-indigo-500/15 to-emerald-500/20 blur-3xl rounded-full pointer-events-none -z-10"></div>
 
     <div class="max-w-4xl mx-auto px-4 text-center">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-950/60 border border-sky-200 dark:border-sky-800/60 text-sky-600 dark:text-sky-400 text-xs sm:text-sm font-semibold mb-6">
         <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-        پروژه مستقل و باز هاب بلاگرها و جوامع تخصصی ایران
+        پروژه مستقل و باز هاب جوامع تخصصی وب فارسی
       </div>
 
       <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-6">
-        کشف برترین <span class="gradient-text">بلاگرها و جوامع تخصصی</span> وب فارسی
+        کشف برترین <span class="gradient-text">بلاگرها و متخصصان</span> ایران
       </h1>
 
       <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed mb-8">
-        مرجع متمرکز برای دسترسی به دایرکتوری‌ها، پایگاه‌های داده و گروه‌های تلگرامی ۱۲ حوزه تخصصی در ایران با تصاویر واقعی.
+        مرجع متمرکز برای دسترسی به دایرکتوری‌ها، پایگاه‌های داده و گروه‌های تلگرامی ۲۰ حوزه تخصصی با تصاویر واقعی.
       </p>
 
-      <!-- Quick Category Nav / Filter Pills -->
-      <div class="flex flex-wrap items-center justify-center gap-2">
-        <a href="#dev" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-cyan-500 hover:text-cyan-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="terminal" class="w-3.5 h-3.5 text-cyan-500"></i>برنامه‌نویسان</a>
-        <a href="#sec" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-emerald-500 hover:text-emerald-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="shield" class="w-3.5 h-3.5 text-emerald-500"></i>امنیت سایبری</a>
-        <a href="#tech" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-sky-500 hover:text-sky-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="code-2" class="w-3.5 h-3.5 text-sky-500"></i>تکنولوژی</a>
-        <a href="#books" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-amber-500 hover:text-amber-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="book-open" class="w-3.5 h-3.5 text-amber-500"></i>کتاب</a>
-        <a href="#travel" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-teal-500 hover:text-teal-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="plane" class="w-3.5 h-3.5 text-teal-500"></i>سفر</a>
-        <a href="#sports" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-rose-500 hover:text-rose-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="dumbbell" class="w-3.5 h-3.5 text-rose-500"></i>ورزش</a>
-        <a href="#cafe" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-amber-500 hover:text-amber-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="coffee" class="w-3.5 h-3.5 text-amber-500"></i>کافه و باریستا</a>
-        <a href="#food" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-orange-500 hover:text-orange-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="utensils" class="w-3.5 h-3.5 text-orange-500"></i>غذا و رستوران</a>
-        <a href="#finance" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-emerald-500 hover:text-emerald-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="trending-up" class="w-3.5 h-3.5 text-emerald-500"></i>مالی و کریپتو</a>
-        <a href="#design" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-purple-500 hover:text-purple-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="palette" class="w-3.5 h-3.5 text-purple-500"></i>دیزاین و UI/UX</a>
-        <a href="#cinema" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-red-500 hover:text-red-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="film" class="w-3.5 h-3.5 text-red-500"></i>سینما و نقد</a>
-        <a href="#gaming" class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-medium hover:border-indigo-500 hover:text-indigo-500 transition shadow-sm flex items-center gap-1.5"><i data-lucide="gamepad-2" class="w-3.5 h-3.5 text-indigo-500"></i>گیم و استریم</a>
+      <!-- Quick Search Bar -->
+      <div class="max-w-xl mx-auto glass rounded-2xl p-2.5 mb-6 shadow-lg">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+          <input type="text" id="dirSearch" placeholder="جستجوی سریع حوزه یا تخصص..." class="w-full bg-transparent pr-10 pl-4 py-2 text-sm focus:outline-none">
+        </div>
       </div>
     </div>
   </section>
@@ -131,23 +113,23 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 flex-1 w-full">
     <div class="flex items-center justify-between mb-8 border-b border-slate-200 dark:border-slate-800 pb-4">
       <div>
-        <h2 class="text-xl sm:text-2xl font-bold">دایرکتوری‌های فعال</h2>
-        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">دسترسی مستقیم به پایگاه داده و رادارهای تخصصی</p>
+        <h2 class="text-xl sm:text-2xl font-bold">دایرکتوری‌ها و انجمن‌های فعال</h2>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">دسترسی مستقیم به پایگاه داده و گروه‌های تلگرامی</p>
       </div>
-      <span class="text-xs font-semibold px-2.5 py-1 bg-sky-50 dark:bg-sky-950 text-sky-600 dark:text-sky-400 rounded-lg border border-sky-200 dark:border-sky-800">۱۲ حوزه فعال</span>
+      <span class="text-xs font-semibold px-2.5 py-1 bg-sky-50 dark:bg-sky-950 text-sky-600 dark:text-sky-400 rounded-lg border border-sky-200 dark:border-sky-800">۲۰ حوزه فعال</span>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="dirsGrid">
       
-      <!-- DevBloggers -->
-      <div id="dev" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 1. DevBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-cyan-50 dark:bg-cyan-950/60 border border-cyan-100 dark:border-cyan-800/60 flex items-center justify-center text-cyan-500"><i data-lucide="terminal" class="w-5 h-5"></i></div>
-            <span class="text-[11px] font-medium text-cyan-600 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-200 dark:border-cyan-800/50">برنامه‌نویسی و مهندسی نرم‌افزار</span>
+            <span class="text-[11px] font-medium text-cyan-600 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-200 dark:border-cyan-800/50">برنامه‌نویسی و وب</span>
           </div>
-          <h3 class="text-lg font-bold mb-2 group-hover:text-cyan-500 transition-colors">جامعه برنامه‌نویسان ایران</h3>
-          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">معرفی ۱۰۰ مهندس نرم‌افزار، توسعه‌دهنده وب، هوش مصنوعی، موبایل و دواپس با عکس‌های واقعی.</p>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-cyan-500 transition-colors">جامعه برنامه‌نویسان و مهندسان نرم‌افزار</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ مهندس نرم‌افزار، وایب کدینگ، پایتون، ری‌اکت، هوش مصنوعی و دواپس.</p>
         </div>
         <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
           <span class="text-[11px] text-slate-500 font-mono">DevBloggers.github.io</span>
@@ -155,15 +137,31 @@
         </div>
       </div>
 
-      <!-- SecurityBloggers -->
-      <div id="sec" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 2. MarketingBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-orange-50 dark:bg-orange-950/60 border border-orange-100 dark:border-orange-800/60 flex items-center justify-center text-orange-500"><i data-lucide="trending-up" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-950/80 px-2 py-0.5 rounded border border-orange-200 dark:border-orange-800/50">مارکتینگ و سئو</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-orange-500 transition-colors">دیجیتال مارکترها و سئوکاران</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ متخصص سئو، پرفورمنس مارکتینگ، هک رشد، کپی‌رایتینگ و آنالیتیکس.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">MarketingBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/MarketingBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 3. SecurityBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-100 dark:border-emerald-800/60 flex items-center justify-center text-emerald-500"><i data-lucide="shield" class="w-5 h-5"></i></div>
-            <span class="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/50">امنیت سایبری و هک قانونمند</span>
+            <span class="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/50">امنیت و باگ‌بانتی</span>
           </div>
-          <h3 class="text-lg font-bold mb-2 group-hover:text-emerald-500 transition-colors">جامعه متخصصان امنیت سایبری</h3>
-          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">دایرکتوری ۱۰۰ شکارچی باگ، متخصص تست نفوذ، مهندسی معکوس و دفاع سایبری با عکس‌های واقعی.</p>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-emerald-500 transition-colors">متخصصان امنیت سایبری و هک قانونمند</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ شکارچی باگ، متخصص تست نفوذ، مهندسی معکوس و دفاع سایبری.</p>
         </div>
         <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
           <span class="text-[11px] text-slate-500 font-mono">SecurityBloggers.github.io</span>
@@ -171,15 +169,127 @@
         </div>
       </div>
 
-      <!-- Cafe Community -->
-      <div id="cafe" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 4. PodcastBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/60 border border-purple-100 dark:border-purple-800/60 flex items-center justify-center text-purple-500"><i data-lucide="mic" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-950/80 px-2 py-0.5 rounded border border-purple-200 dark:border-purple-800/50">پادکست و صدا</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-purple-500 transition-colors">پادکست‌سازان و رسانه‌های صوتی</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ پادکست برتر فارسی، راویان، مهندسان صدا و روایت‌گری مستند.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">PodcastBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/PodcastBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-purple-500 hover:bg-purple-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 5. PsychologyBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-teal-50 dark:bg-teal-950/60 border border-teal-100 dark:border-teal-800/60 flex items-center justify-center text-teal-500"><i data-lucide="smile" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-950/80 px-2 py-0.5 rounded border border-teal-200 dark:border-teal-800/50">روانشناسی و تراپی</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-teal-500 transition-colors">روانشناسان، تراپیست‌ها و سلامت روان</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ روانشناس بالینی، مشاور خانواده، زوج‌درمانگر و فعال سلامت روان.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">PsychologyBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/PsychologyBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-teal-500 hover:bg-teal-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 6. FashionBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-pink-50 dark:bg-pink-950/60 border border-pink-100 dark:border-pink-800/60 flex items-center justify-center text-pink-500"><i data-lucide="sparkles" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-pink-600 dark:text-pink-400 bg-pink-50 dark:bg-pink-950/80 px-2 py-0.5 rounded border border-pink-200 dark:border-pink-800/50">بیوتی، استایل و مد</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-pink-500 transition-colors">بیوتی‌بلاگرها، استایلیست‌ها و مد</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ بیوتی‌بلاگر، میکاپ‌آرتیست، متخصص روتین پوست و طراح استایل.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">FashionBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/FashionBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-pink-500 hover:bg-pink-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 7. PhotoBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-950/60 border border-blue-100 dark:border-blue-800/60 flex items-center justify-center text-blue-500"><i data-lucide="camera" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/80 px-2 py-0.5 rounded border border-blue-200 dark:border-blue-800/50">عکاسی و فیلم‌برداری</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-blue-500 transition-colors">عکاسان، تصویربرداران و تدوینگران</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ عکاس پرتره، تبلیغاتی، خیابانی، فیلم‌بردار و کالریست داوینچی.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">PhotoBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/PhotoBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 8. PetBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-100 dark:border-amber-800/60 flex items-center justify-center text-amber-500"><i data-lucide="heart" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-2 py-0.5 rounded border border-amber-200 dark:border-amber-800/50">حیوانات و دامپزشکی</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-amber-500 transition-colors">حامیان حیوانات، دامپزشکان و مربیان پت</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ دامپزشک، مربی رفتارشناسی سگ و گربه و پناهگاه‌های معتبر.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">PetBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/PetBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 9. LawBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300"><i data-lucide="scale" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded border border-slate-200 dark:border-slate-700">حقوق و قوانین</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-indigo-500 transition-colors">وکلا، مشاوران حقوقی و مالیاتی</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ وکیل پایه‌یک دادگستری، مشاوران حقوقی استارتاپ‌ها، دعاوی ملکی و مالیاتی.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">LawBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/LawBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-medium transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 10. ApplyBloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-10 h-10 rounded-xl bg-sky-50 dark:bg-sky-950/60 border border-sky-100 dark:border-sky-800/60 flex items-center justify-center text-sky-500"><i data-lucide="graduation-cap" class="w-5 h-5"></i></div>
+            <span class="text-[11px] font-medium text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/80 px-2 py-0.5 rounded border border-sky-200 dark:border-sky-800/50">اپلای و بورسیه</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2 group-hover:text-sky-500 transition-colors">اپلای، مهاجرت تحصیلی و اسکولارشیپ</h3>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ منتور اپلای، راهنمای فول‌فاند، نگارش رزومه و آیلتس.</p>
+        </div>
+        <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
+          <span class="text-[11px] text-slate-500 font-mono">ApplyBloggers.github.io</span>
+          <a href="https://m4tinbeigi-official.github.io/ApplyBloggers.github.io/" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-lg bg-sky-500 hover:bg-sky-600 text-slate-950 text-xs font-bold transition flex items-center gap-1"><span>مشاهده</span><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></a>
+        </div>
+      </div>
+
+      <!-- 11. Cafe Community -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-100 dark:border-amber-800/60 flex items-center justify-center text-amber-500"><i data-lucide="coffee" class="w-5 h-5"></i></div>
-            <span class="text-[11px] font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-2 py-0.5 rounded border border-amber-200 dark:border-amber-800/50">کافه، باریستا و ویتر</span>
+            <span class="text-[11px] font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-2 py-0.5 rounded border border-amber-200 dark:border-amber-800/50">کافه و باریستا</span>
           </div>
           <h3 class="text-lg font-bold mb-2 group-hover:text-amber-500 transition-colors">جامعه کافه‌داران، باریستاها و ویترها</h3>
-          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">دایرکتوری تفکیک‌شده ۱۰۰ کافه شاخص ایران و ۱۰۰ نفر از باریستاها، ویترها و رسترها.</p>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">۱۰۰ کافه شاخص ایران و ۱۰۰ نفر از باریستاها، ویترها و رسترها.</p>
         </div>
         <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
           <span class="text-[11px] text-slate-500 font-mono">CafeBloggers.github.io</span>
@@ -187,15 +297,15 @@
         </div>
       </div>
 
-      <!-- Tech -->
-      <div id="tech" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 12. Tech Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-sky-50 dark:bg-sky-950/60 border border-sky-100 dark:border-sky-800/60 flex items-center justify-center text-sky-500"><i data-lucide="laptop" class="w-5 h-5"></i></div>
             <span class="text-[11px] font-medium text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/80 px-2 py-0.5 rounded border border-sky-200 dark:border-sky-800/50">تکنولوژی و AI</span>
           </div>
           <h3 class="text-lg font-bold mb-2 group-hover:text-sky-500 transition-colors">تک بلاگرهای ایران</h3>
-          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">برنامه‌نویسان، متخصصان هوش مصنوعی، امنیت و نویسندگان فناوری وب فارسی.</p>
+          <p class="text-slate-600 dark:text-slate-400 text-xs leading-relaxed mb-4">برنامه‌نویسان، متخصصان هوش مصنوعی و نویسندگان فناوری وب فارسی.</p>
         </div>
         <div class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
           <span class="text-[11px] text-slate-500 font-mono">techblogger-ir.github.io</span>
@@ -203,11 +313,11 @@
         </div>
       </div>
 
-      <!-- Books -->
-      <div id="books" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 13. Book Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
-            <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-100 dark:border-amber-800/60 flex items-center justify-center text-amber-500"><i data-lucide="book" class="w-5 h-5"></i></div>
+            <div class="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-100 dark:border-amber-800/60 flex items-center justify-center text-amber-500"><i data-lucide="book-open" class="w-5 h-5"></i></div>
             <span class="text-[11px] font-medium text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/80 px-2 py-0.5 rounded border border-amber-200 dark:border-amber-800/50">کتاب و ادبیات</span>
           </div>
           <h3 class="text-lg font-bold mb-2 group-hover:text-amber-500 transition-colors">بوک‌بلاگرهای ایران</h3>
@@ -219,11 +329,11 @@
         </div>
       </div>
 
-      <!-- Travel -->
-      <div id="travel" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 14. Travel Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
-            <div class="w-10 h-10 rounded-xl bg-teal-50 dark:bg-teal-950/60 border border-teal-100 dark:border-teal-800/60 flex items-center justify-center text-teal-500"><i data-lucide="map-pin" class="w-5 h-5"></i></div>
+            <div class="w-10 h-10 rounded-xl bg-teal-50 dark:bg-teal-950/60 border border-teal-100 dark:border-teal-800/60 flex items-center justify-center text-teal-500"><i data-lucide="plane" class="w-5 h-5"></i></div>
             <span class="text-[11px] font-medium text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-950/80 px-2 py-0.5 rounded border border-teal-200 dark:border-teal-800/50">سفر و گردشگری</span>
           </div>
           <h3 class="text-lg font-bold mb-2 group-hover:text-teal-500 transition-colors">تراول بلاگرهای ایران</h3>
@@ -235,8 +345,8 @@
         </div>
       </div>
 
-      <!-- Sports -->
-      <div id="sports" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 15. Sports Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-rose-50 dark:bg-rose-950/60 border border-rose-100 dark:border-rose-800/60 flex items-center justify-center text-rose-500"><i data-lucide="dumbbell" class="w-5 h-5"></i></div>
@@ -251,8 +361,8 @@
         </div>
       </div>
 
-      <!-- Food -->
-      <div id="food" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 16. Food Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-orange-50 dark:bg-orange-950/60 border border-orange-100 dark:border-orange-800/60 flex items-center justify-center text-orange-500"><i data-lucide="utensils" class="w-5 h-5"></i></div>
@@ -267,11 +377,11 @@
         </div>
       </div>
 
-      <!-- Finance -->
-      <div id="finance" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 17. Finance Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
-            <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-100 dark:border-emerald-800/60 flex items-center justify-center text-emerald-500"><i data-lucide="trending-up" class="w-5 h-5"></i></div>
+            <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-100 dark:border-emerald-800/60 flex items-center justify-center text-emerald-500"><i data-lucide="line-chart" class="w-5 h-5"></i></div>
             <span class="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/50">مالی و کریپتو</span>
           </div>
           <h3 class="text-lg font-bold mb-2 group-hover:text-emerald-500 transition-colors">فایننس‌بلاگرها و اقتصاد</h3>
@@ -283,8 +393,8 @@
         </div>
       </div>
 
-      <!-- Design -->
-      <div id="design" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 18. Design Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/60 border border-purple-100 dark:border-purple-800/60 flex items-center justify-center text-purple-500"><i data-lucide="palette" class="w-5 h-5"></i></div>
@@ -299,8 +409,8 @@
         </div>
       </div>
 
-      <!-- Cinema -->
-      <div id="cinema" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 19. Cinema Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-red-50 dark:bg-red-950/60 border border-red-100 dark:border-red-800/60 flex items-center justify-center text-red-500"><i data-lucide="film" class="w-5 h-5"></i></div>
@@ -315,8 +425,8 @@
         </div>
       </div>
 
-      <!-- Gaming -->
-      <div id="gaming" class="group rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
+      <!-- 20. Game Bloggers -->
+      <div class="group dir-card rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 card-hover flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
             <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-100 dark:border-indigo-800/60 flex items-center justify-center text-indigo-500"><i data-lucide="gamepad-2" class="w-5 h-5"></i></div>
@@ -354,21 +464,16 @@
       <div class="flex items-center gap-2">
         <span>پروژه دایرکتوری‌های آزاد ایرانی</span>
         <span>•</span>
-        <span>IRBlogger Hub</span>
+        <span>IRBlogger Hub (۲۰ حوزه تخصصی)</span>
       </div>
       <div class="flex flex-wrap items-center gap-3">
         <a href="https://m4tinbeigi-official.github.io/DevBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">برنامه‌نویسان</a>
+        <a href="https://m4tinbeigi-official.github.io/MarketingBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">مارکتینگ</a>
         <a href="https://m4tinbeigi-official.github.io/SecurityBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">امنیت</a>
         <a href="https://techblogger-ir.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">تکنولوژی</a>
         <a href="https://bookbloger.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">کتاب</a>
         <a href="https://travelbloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">سفر</a>
-        <a href="https://sportscoachbloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">ورزش</a>
         <a href="https://m4tinbeigi-official.github.io/CafeBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">کافه</a>
-        <a href="https://m4tinbeigi-official.github.io/FoodBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">غذا</a>
-        <a href="https://m4tinbeigi-official.github.io/FinanceBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">مالی</a>
-        <a href="https://m4tinbeigi-official.github.io/DesignBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">دیزاین</a>
-        <a href="https://m4tinbeigi-official.github.io/CinemaBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">سینما</a>
-        <a href="https://m4tinbeigi-official.github.io/GameBloggers.github.io/" target="_blank" class="hover:text-slate-900 dark:hover:text-white transition">گیمینگ</a>
       </div>
     </div>
   </footer>
@@ -391,6 +496,21 @@
         document.documentElement.classList.add('dark');
         localStorage.theme = 'dark';
       }
+    });
+
+    const dirSearch = document.getElementById('dirSearch');
+    const cards = document.querySelectorAll('.dir-card');
+
+    dirSearch.addEventListener('input', () => {
+      const q = dirSearch.value.toLowerCase().trim();
+      cards.forEach(c => {
+        const text = c.textContent.toLowerCase();
+        if (text.includes(q)) {
+          c.style.display = 'flex';
+        } else {
+          c.style.display = 'none';
+        }
+      });
     });
   </script>
 </body>
